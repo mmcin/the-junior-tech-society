@@ -6,7 +6,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Welcome to The Junior Tech Society</title>
     <link rel="stylesheet" href="{% static 'assets/css/styles.css' %}">
 </head>
 
@@ -31,8 +31,19 @@
                 </ul>
             </div>
         </div>
-
+        <section id="hero">
+            <div id="hero-text">
+                <h1>Working together... works.</h1>
+                <p>Introducing The Junior Tech Society. A monthly open source project designed to bridge the gap between
+                    graduation and employment for web developers.</p>
+                <a class="button-52" href="#">Join us now</a>
+            </div>
+            <div id="hero-image">
+                <img src="{% static 'assets/images/hero-bg.png' %}">
+            </div>
+        </section>
     </header>
+
 
     {% block content %}
 
