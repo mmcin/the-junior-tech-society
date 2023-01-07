@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #1e2125;
+
+}
+
+header {
+    background: rgb(159, 106, 23);
+    background: linear-gradient(72deg, rgba(159, 106, 23, 0.22872899159663862) 29%, rgba(15, 151, 158, 0.23713235294117652) 58%, rgba(4, 3, 27, 0.2679446778711485) 100%);
+    margin-top: 30px;
+    height: 100vh;
+}
