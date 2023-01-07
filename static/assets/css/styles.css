@@ -1,17 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+a {
+    color: #fafafa;
+    text-decoration: none;
+}
+
 body {
     background-color: #1e2125;
-
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
 }
 
 header {
     background: rgb(159, 106, 23);
     background: linear-gradient(72deg, rgba(159, 106, 23, 0.22872899159663862) 29%, rgba(15, 151, 158, 0.23713235294117652) 58%, rgba(4, 3, 27, 0.2679446778711485) 100%);
-    margin-top: 30px;
+
     height: 100vh;
+}
+
+/* navbar */
+#nav-1 {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    color: #fafafa;
+
+}
+
+.brand-1 a {
+    font-size: 1.5rem;
+    padding: .5rem;
+
+    font-weight: 300;
+}
+
+.brand-1 {
+    font-size: 1.5rem;
+    padding: .5rem;
+    margin-left: 2rem;
+    font-weight: 300;
+}
+
+#brand-2 {
+    font-weight: 900;
+    color: goldenrod;
+}
+
+.nav-links-1 {
+    height: 100%;
+}
+
+.nav-links-1 ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    margin-right: 6rem;
+}
+
+.nav-links-1 li {
+    list-style: none;
+}
+
+.nav-links-1 li a {
+    display: block;
+    text-decoration: none;
+    color: #fafafa;
+    padding: 1rem 2rem;
+}
+
+
+.nav-links-1 li:hover {
+    background-color: rgba(2, 15, 5, 0.179);
+    border-radius: 10%;
+
+}
+
+.toggle-button {
+    position: absolute;
+    top: .75rem;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+}
+
+.toggle-button .bar {
+    height: 3px;
+    width: 100%;
+    background-color: #fafafa;
+    border-radius: 10px;
+}
+
+@media (max-width: 500px) {
+    #nav-1 {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .toggle-button {
+        display: flex;
+    }
+
+    .nav-links-1 {
+        display: none;
+        width: 100%;
+    }
+
+
+    .nav-links-1 ul {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .nav-links-1 ul li {
+        text-align: center;
+    }
+
+    .nav-links-1 ul li a {
+        padding: .5rem 1rem;
+    }
+
+    .nav-links-1.active {
+        display: flex;
+    }
+
 }
