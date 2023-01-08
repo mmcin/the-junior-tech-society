@@ -23,10 +23,11 @@ body {
 header {
     background: rgb(159, 106, 23);
     background: linear-gradient(72deg, rgba(30, 33, 37, 0.22872899159663862) 29%, rgba(40, 201, 80, 0.4) 58%, rgba(4, 3, 27, 0.2679446778711485) 100%);
-    display: inline-block;
+    /* display: inline-block; */
     padding-bottom: 3rem;
+    box-shadow: 5px 5px 10px #2ecc4b4b;
+    /* filter: drop-shadow(5px 5px 10px #2ECC4C); */
 }
-
 
 /* navbar */
 #nav-1 {
@@ -136,6 +137,19 @@ header {
     .nav-links-1.active {
         display: flex;
     }
+}
+
+@media (max-width: 941px) {
+
+    #nav-logo-text {
+        display: none;
+    }
+
+    #hero-image {
+        display: none;
+    }
+
+
 }
 
 /* hero section */
@@ -263,7 +277,7 @@ header {
 }
 
 .info-card {
-    border: 7px solid #fafafa;
+    border: 3px solid #fafafa;
     border-radius: 10px;
     padding: 2rem;
     margin: 3rem;
