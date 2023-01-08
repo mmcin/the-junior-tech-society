@@ -3,6 +3,30 @@
 jlkjlkjlk
 {% block content %}
 
+<section id="information-container">
+    <div id="card-1" class="info-card" data-aos="slide-right">
+        <h1>Network</h1>
+        <p>Building a network is an important part of joining any industry. Here at JTS we aim to put graduates in touch
+            with a network of like minded developers.</p>
+    </div>
+    <div id="card-2" class="info-card" data-aos="slide-up">
+        <h1>Experience</h1>
+        <p>Companies are taking a risk when hiring junior developers. Help them to mitiate that risk by having a
+            portfolio of projects that have been built by a team.</p>
+    </div>
+    <div id="card-3" class="info-card" data-aos="slide-left">
+        <h1>Accountability</h1>
+        <p>When working alone, it can be easy to take the path of least resistance. Learn more and stay honest by
+            building collaboratively. Gain exposure to new technologies.</p>
+    </div>
+    <div id="info-image-1" class="info-image-container" data-aos="slide-up">
+        <img class="info-image" src="{% static 'assets/images/networking.png' %}">
+    </div>
 
+    <div id="info-image-2" class="info-image-container" data-aos="slide-right">
+        <img class="info-image" src="{% static 'assets/images/user-experience.png' %}"> </div>
 
-{% endblock content %}
+    <div id="info-image-3" class="info-image-container" data-aos="slide-up">
+        <img class="info-image" src="{% static 'assets/images/list.png' %}"> </div>
+
+</section> {% endblock content %}
