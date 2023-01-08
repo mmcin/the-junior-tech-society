@@ -23,7 +23,8 @@ body {
 header {
     background: rgb(159, 106, 23);
     background: linear-gradient(72deg, rgba(159, 106, 23, 0.22872899159663862) 29%, rgba(15, 151, 158, 0.23713235294117652) 58%, rgba(4, 3, 27, 0.2679446778711485) 100%);
-    height: 500px;
+    display: inline-block;
+    padding-bottom: 3rem;
 }
 
 /* navbar */
@@ -158,7 +159,7 @@ header {
     font-size: 1rem;
     font-weight: 300;
     padding-bottom: 2rem;
-
+    line-height: 140%;
 }
 
 #hero-text {
@@ -221,7 +222,7 @@ header {
         ". . ."
         ". . ."
         ". . .";
-    padding-top: 5rem;
+    padding: 5rem 0;
 }
 
 #card-1 {
@@ -274,5 +275,94 @@ header {
 
 .info-card p {
     font-weight: 300;
-    letter-spacing: 0.1rem;
+    letter-spacing: 0.07rem;
+}
+
+#mailing label,
+div {
+    color: black;
+
+}
+
+#mailing {
+    padding: 5rem;
+    padding-top: 0;
+    background-color: #fafafa;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+
+}
+
+#contact-description {
+    background-color: #fafafa;
+    color: black;
+    text-align: center;
+    padding: 5rem 0 0 2rem;
+}
+
+#contact-description h2,
+#contact-description p {
+    color: black;
+    padding: 0 7rem;
+    text-align: center;
+}
+
+#contact-description p {
+    font-weight: 300;
+    padding-top: 2rem;
+    font-size: 2rem;
+    line-height: 150%;
+}
+
+#signup-elements {
+    width: 50vw;
+}
+
+.down-arrow {
+    position: absolute;
+    top: calc(100vh - 60px);
+    left: calc(50% - 14px);
+    width: 0;
+    height: 30px;
+    border: 2px solid;
+    border-radius: 2px;
+    color: #2ec950;
+}
+
+.down-arrow:after {
+    content: " ";
+    position: absolute;
+    top: 12px;
+    left: -10px;
+    width: 16px;
+    height: 16px;
+    border-bottom: 4px solid;
+    border-right: 4px solid;
+    border-radius: 4px;
+    transform: rotateZ(45deg);
+}
+
+.dancing-arrow {
+    width: 100vw;
+    height: 200px;
+}
+
+@keyframes jumpInfinite {
+    0% {
+        margin-top: 0;
+    }
+
+    50% {
+        margin-top: 20px;
+    }
+
+    100% {
+        margin-top: 0;
+    }
+}
+
+.down-arrow {
+
+    animation: jumpInfinite 1.5s infinite;
 }
