@@ -22,10 +22,11 @@ body {
 
 header {
     background: rgb(159, 106, 23);
-    background: linear-gradient(72deg, rgba(159, 106, 23, 0.22872899159663862) 29%, rgba(15, 151, 158, 0.23713235294117652) 58%, rgba(4, 3, 27, 0.2679446778711485) 100%);
+    background: linear-gradient(72deg, rgba(30, 33, 37, 0.22872899159663862) 29%, rgba(40, 201, 80, 0.4) 58%, rgba(4, 3, 27, 0.2679446778711485) 100%);
     display: inline-block;
     padding-bottom: 3rem;
 }
+
 
 /* navbar */
 #nav-1 {
@@ -151,7 +152,7 @@ header {
 
 #hero h1 {
     font-size: 2.7rem;
-    ;
+
 }
 
 #hero p {
@@ -179,7 +180,7 @@ header {
     letter-spacing: 1px;
     padding: 13px 20px 13px;
     outline: 0;
-    border: 1px solid silver;
+    border: 1px solid #2ec950;
     cursor: pointer;
     position: relative;
     background-color: rgba(0, 0, 0, 0);
@@ -271,6 +272,8 @@ header {
 
 .info-card h1 {
     padding-bottom: 1rem;
+    color: #2ec950;
+    font-weight: 400;
 }
 
 .info-card p {
@@ -292,13 +295,14 @@ div {
     display: flex;
     justify-content: center;
 
+
 }
 
 #contact-description {
     background-color: #fafafa;
     color: black;
     text-align: center;
-    padding: 5rem 0 0 2rem;
+    padding: 5rem 0 3rem 2rem;
 }
 
 #contact-description h2,
@@ -363,6 +367,5 @@ div {
 }
 
 .down-arrow {
-
     animation: jumpInfinite 1.5s infinite;
 }
