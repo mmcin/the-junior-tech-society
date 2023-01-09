@@ -146,6 +146,7 @@ header {
     width: 90%;
     margin-top: 5rem;
     /* border: 2px dotted #2ec950; */
+    display: none;
 
 }
 
