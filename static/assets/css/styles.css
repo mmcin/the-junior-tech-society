@@ -105,29 +105,6 @@ header {
     border-radius: 10px;
 }
 
-@media (max-width: 941px) {
-
-    #nav-logo-text {
-        display: none;
-    }
-
-    #hero-image {
-        display: none;
-    }
-
-    #hero {
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: 1fr;
-
-
-    }
-
-    #hero-text {
-        width: 100vw;
-        display: inline-block;
-    }
-}
 
 /* hero section */
 
@@ -143,8 +120,9 @@ header {
 
 #hero h1 {
     font-size: 2.7rem;
-
 }
+
+#hero span {}
 
 #hero p {
     padding-top: 1rem;
@@ -167,7 +145,7 @@ header {
     vertical-align: bottom;
     width: 90%;
     margin-top: 5rem;
-    border: 2px solid #2ec950;
+    /* border: 2px dotted #2ec950; */
 
 }
 
@@ -179,7 +157,7 @@ header {
     letter-spacing: 1px;
     padding: 13px 20px 13px;
     outline: 0;
-    border: 1px solid #2ec950;
+    border: 1px solid white;
     cursor: pointer;
     position: relative;
     background-color: rgba(0, 0, 0, 0);
@@ -203,12 +181,6 @@ header {
 .button-52:hover:after {
     top: 0px;
     left: 0px;
-}
-
-@media (min-width: 768px) {
-    .button-52 {
-        padding: 13px 50px 13px;
-    }
 }
 
 /* information section and cards */
@@ -266,7 +238,7 @@ header {
     border-radius: 10px;
     padding: 2rem;
     margin: 3rem;
-    line-height: 180%;
+    line-height: 150%;
 }
 
 .info-card h1 {
@@ -348,7 +320,7 @@ div {
 
 .dancing-arrow {
     width: 100vw;
-    height: 200px;
+
 }
 
 @keyframes jumpInfinite {
@@ -368,6 +340,37 @@ div {
 .down-arrow {
     animation: jumpInfinite 1.5s infinite;
 }
+
+@media (max-width: 941px) {
+
+    #nav-logo-text {
+        display: none;
+    }
+
+    #hero-image {
+        display: none;
+    }
+
+    #hero {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+
+
+    }
+
+    #hero-text {
+        width: 100vw;
+        display: inline-block;
+    }
+}
+
+@media (min-width: 768px) {
+    .button-52 {
+        padding: 13px 50px 13px;
+    }
+}
+
 
 @media (max-width: 700px) {
     #nav-1 {
@@ -411,5 +414,54 @@ div {
     #contact-description p {
         font-size: calc(1rem + 1vw);
         padding: 5rem 0.2rem 3rem 0.2rem;
+    }
+
+    .info-card {
+        font-size: 0.9rem;
+        padding: 0.5rem;
+        margin: 0.5rem;
+    }
+
+}
+
+@media (max-width: 500px) {
+    #contact-description p {
+        font-size: calc(1rem + 1vw);
+        padding: 5rem 0.2rem 3rem 0.2rem;
+    }
+
+    #contact-description {
+        padding: 2rem auto;
+    }
+
+    .info-card {
+        font-size: 0.9rem;
+        padding: 0.5rem;
+        margin: 2rem 1;
+        line-height: 1rem;
+    }
+
+    .info-image-container {
+        /* display: none; */
+    }
+
+    #information-container {
+        padding-top: 2rem;
+    }
+
+    .dancing-arrow {
+        display: none;
+    }
+
+    #contact-description h2 {
+        padding: 0.5rem;
+    }
+
+    #contact-description p {
+        padding-top: 1rem;
+    }
+
+    #hero-text {
+        padding: 2rem;
     }
 }
