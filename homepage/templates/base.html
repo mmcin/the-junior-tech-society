@@ -7,6 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Welcome to The Junior Tech Society</title>
+    <!-- AOS - Animate on scroll dependencies -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="{% static 'assets/css/styles.css' %}">
 </head>
@@ -45,14 +46,12 @@
         </section>
     </header>
 
-
-
-
     {% block content %}
-
     {% endblock %}
 
     <script src="{% static 'assets/js/navbars.js' %}"></script>
+
+    <!-- Animate on scroll -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
         AOS.init();
