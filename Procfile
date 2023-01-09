@@ -1,0 +1,1 @@
+web: gunicorn the_junior_tech_society.wsgi
