@@ -154,7 +154,6 @@ header {
 .button-52 {
     color: black;
     font-size: 16px;
-    font-weight: 400;
     letter-spacing: 1px;
     padding: 13px 20px 13px;
     outline: 0;
@@ -165,6 +164,10 @@ header {
     user-select: none;
     -webkit-user-select: none;
     touch-action: manipulation;
+}
+
+.button-52 a {
+    font-weight: 600;
 }
 
 .button-52:after {
@@ -183,6 +186,8 @@ header {
     top: 0px;
     left: 0px;
 }
+
+
 
 /* information section and cards */
 #information-container {

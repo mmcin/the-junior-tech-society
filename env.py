@@ -1,3 +1,3 @@
 import os
 
-SECRET_KEY = os.environ('sillysausage')
+os.environ["SECRET_KEY"] = "sillysausage"
