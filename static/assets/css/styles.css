@@ -84,7 +84,6 @@ header {
 .nav-links-1 li:hover {
     background-color: rgba(2, 15, 5, 0.179);
     border-radius: 10%;
-
 }
 
 .toggle-button {
@@ -187,8 +186,6 @@ header {
     left: 0px;
 }
 
-
-
 /* information section and cards */
 #information-container {
     display: grid;
@@ -200,7 +197,7 @@ header {
         ". . ."
         ". . ."
         ". . .";
-    padding: 5rem 0;
+    padding: 10rem 0 5rem 0;
 }
 
 #card-1 {
@@ -219,7 +216,6 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 
 #info-image-1 {
@@ -236,7 +232,6 @@ header {
 
 .info-image {
     width: 70%;
-
 }
 
 .info-card {
@@ -261,7 +256,6 @@ header {
 #mailing label,
 div {
     color: black;
-
 }
 
 #mailing {
@@ -271,8 +265,6 @@ div {
     width: 100vw;
     display: flex;
     justify-content: center;
-
-
 }
 
 #contact-description {
