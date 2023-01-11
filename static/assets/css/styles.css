@@ -9,6 +9,11 @@
     border: 2px solid #2ec950;
 }
 
+#mc_embed_signup h2,
+#mc_embed_signup input{
+    color: #1e2125;
+}
+
 * {
     margin: 0;
     padding: 0;
