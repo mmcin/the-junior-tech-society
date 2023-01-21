@@ -76,7 +76,7 @@ header {
 .nav-links-1 ul {
     display: flex;
     margin: 0;
-    padding-right: ;
+    padding-right: 0;
     margin-right: 0;
 }
 
