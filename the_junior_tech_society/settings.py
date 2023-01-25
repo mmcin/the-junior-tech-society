@@ -29,7 +29,7 @@ if os.environ.get('DEBUG_SET_TO_FALSE'):
 else:
     DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1', 'the-junior-tech-society.herokuapp.com']
+ALLOWED_HOSTS = ['127.0.0.1', 'the-junior-tech-society.herokuapp.com', 'localhost']
 
 AUTHENTICATION_BACKENDS = [
     
