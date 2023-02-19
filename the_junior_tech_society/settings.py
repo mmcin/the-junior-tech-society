@@ -93,6 +93,8 @@ TEMPLATES = [
     },
 ]
 
+LOGIN_REDIRECT_URL='homepage'
+
 WSGI_APPLICATION = 'the_junior_tech_society.wsgi.application'
 
 
